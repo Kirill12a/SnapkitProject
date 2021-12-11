@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE24C954215CBBC6DF7B1ACD /* Pods_SnapkitProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A2E327860FF54D25EB7577 /* Pods_SnapkitProject.framework */; };
 		D2016BF22765259C00A07B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2016BF12765259C00A07B75 /* AppDelegate.swift */; };
 		D2016BF42765259C00A07B75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2016BF32765259C00A07B75 /* SceneDelegate.swift */; };
 		D2016BF62765259C00A07B75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2016BF52765259C00A07B75 /* ViewController.swift */; };
 		D2016BF92765259C00A07B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2016BF72765259C00A07B75 /* Main.storyboard */; };
 		D2016BFB2765259D00A07B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2016BFA2765259D00A07B75 /* Assets.xcassets */; };
 		D2016BFE2765259D00A07B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2016BFC2765259D00A07B75 /* LaunchScreen.storyboard */; };
+		D2016C0727653AD400A07B75 /* CellWidthToLabels.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2016C0627653AD400A07B75 /* CellWidthToLabels.xib */; };
+		D2016C0927653B0100A07B75 /* CellWidthToLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2016C0827653B0100A07B75 /* CellWidthToLabels.swift */; };
+		D2016C0B27653DE600A07B75 /* CellWithTwoLabelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2016C0A27653DE600A07B75 /* CellWithTwoLabelsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		081B1354186F1569E7BC958D /* Pods-SnapkitProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapkitProject.release.xcconfig"; path = "Target Support Files/Pods-SnapkitProject/Pods-SnapkitProject.release.xcconfig"; sourceTree = "<group>"; };
+		1C736D65A58BB00AC34C0239 /* Pods-SnapkitProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapkitProject.debug.xcconfig"; path = "Target Support Files/Pods-SnapkitProject/Pods-SnapkitProject.debug.xcconfig"; sourceTree = "<group>"; };
+		B7A2E327860FF54D25EB7577 /* Pods_SnapkitProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapkitProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2016BEE2765259C00A07B75 /* SnapkitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapkitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2016BF12765259C00A07B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2016BF32765259C00A07B75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		D2016BFA2765259D00A07B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2016BFD2765259D00A07B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2016BFF2765259D00A07B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2016C0627653AD400A07B75 /* CellWidthToLabels.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellWidthToLabels.xib; sourceTree = "<group>"; };
+		D2016C0827653B0100A07B75 /* CellWidthToLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellWidthToLabels.swift; sourceTree = "<group>"; };
+		D2016C0A27653DE600A07B75 /* CellWithTwoLabelsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellWithTwoLabelsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE24C954215CBBC6DF7B1ACD /* Pods_SnapkitProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A9A3CB9C21A2FF0B0DA4A83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7A2E327860FF54D25EB7577 /* Pods_SnapkitProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2016BE52765259C00A07B75 = {
 			isa = PBXGroup;
 			children = (
 				D2016BF02765259C00A07B75 /* SnapkitProject */,
 				D2016BEF2765259C00A07B75 /* Products */,
+				FE70E6C5030907DD54DFDD71 /* Pods */,
+				0A9A3CB9C21A2FF0B0DA4A83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +79,7 @@
 			children = (
 				D2016BF12765259C00A07B75 /* AppDelegate.swift */,
 				D2016BF32765259C00A07B75 /* SceneDelegate.swift */,
+				D2016C0527653AC100A07B75 /* Cell */,
 				D2016BF52765259C00A07B75 /* ViewController.swift */,
 				D2016BF72765259C00A07B75 /* Main.storyboard */,
 				D2016BFA2765259D00A07B75 /* Assets.xcassets */,
@@ -67,6 +89,25 @@
 			path = SnapkitProject;
 			sourceTree = "<group>";
 		};
+		D2016C0527653AC100A07B75 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D2016C0627653AD400A07B75 /* CellWidthToLabels.xib */,
+				D2016C0A27653DE600A07B75 /* CellWithTwoLabelsViewModel.swift */,
+				D2016C0827653B0100A07B75 /* CellWidthToLabels.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FE70E6C5030907DD54DFDD71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C736D65A58BB00AC34C0239 /* Pods-SnapkitProject.debug.xcconfig */,
+				081B1354186F1569E7BC958D /* Pods-SnapkitProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2016C022765259D00A07B75 /* Build configuration list for PBXNativeTarget "SnapkitProject" */;
 			buildPhases = (
+				0A0BDA9AC738C72A2959F6E4 /* [CP] Check Pods Manifest.lock */,
 				D2016BEA2765259C00A07B75 /* Sources */,
 				D2016BEB2765259C00A07B75 /* Frameworks */,
 				D2016BEC2765259C00A07B75 /* Resources */,
+				457AC96BB16918D975BE0AE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2016C0727653AD400A07B75 /* CellWidthToLabels.xib in Resources */,
 				D2016BFE2765259D00A07B75 /* LaunchScreen.storyboard in Resources */,
 				D2016BFB2765259D00A07B75 /* Assets.xcassets in Resources */,
 				D2016BF92765259C00A07B75 /* Main.storyboard in Resources */,
@@ -133,13 +177,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A0BDA9AC738C72A2959F6E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapkitProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		457AC96BB16918D975BE0AE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapkitProject/Pods-SnapkitProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapkitProject/Pods-SnapkitProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapkitProject/Pods-SnapkitProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2016BEA2765259C00A07B75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2016C0927653B0100A07B75 /* CellWidthToLabels.swift in Sources */,
 				D2016BF62765259C00A07B75 /* ViewController.swift in Sources */,
 				D2016BF22765259C00A07B75 /* AppDelegate.swift in Sources */,
+				D2016C0B27653DE600A07B75 /* CellWithTwoLabelsViewModel.swift in Sources */,
 				D2016BF42765259C00A07B75 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +372,7 @@
 		};
 		D2016C032765259D00A07B75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C736D65A58BB00AC34C0239 /* Pods-SnapkitProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +401,7 @@
 		};
 		D2016C042765259D00A07B75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 081B1354186F1569E7BC958D /* Pods-SnapkitProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
