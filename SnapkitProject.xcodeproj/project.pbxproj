@@ -17,6 +17,9 @@
 		D2016C0727653AD400A07B75 /* CellWidthToLabels.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2016C0627653AD400A07B75 /* CellWidthToLabels.xib */; };
 		D2016C0927653B0100A07B75 /* CellWidthToLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2016C0827653B0100A07B75 /* CellWidthToLabels.swift */; };
 		D2016C0B27653DE600A07B75 /* CellWithTwoLabelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2016C0A27653DE600A07B75 /* CellWithTwoLabelsViewModel.swift */; };
+		D2016C0D2765417100A07B75 /* CellWithTwoLabelsAndImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2016C0C2765417100A07B75 /* CellWithTwoLabelsAndImage.swift */; };
+		D2016C0F2765419600A07B75 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2016C0E2765419600A07B75 /* Constants.swift */; };
+		D2016C11276542E300A07B75 /* CellWithTwoLabelsAndImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2016C10276542E300A07B75 /* CellWithTwoLabelsAndImageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		D2016C0627653AD400A07B75 /* CellWidthToLabels.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellWidthToLabels.xib; sourceTree = "<group>"; };
 		D2016C0827653B0100A07B75 /* CellWidthToLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellWidthToLabels.swift; sourceTree = "<group>"; };
 		D2016C0A27653DE600A07B75 /* CellWithTwoLabelsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellWithTwoLabelsViewModel.swift; sourceTree = "<group>"; };
+		D2016C0C2765417100A07B75 /* CellWithTwoLabelsAndImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellWithTwoLabelsAndImage.swift; sourceTree = "<group>"; };
+		D2016C0E2765419600A07B75 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D2016C10276542E300A07B75 /* CellWithTwoLabelsAndImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellWithTwoLabelsAndImageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +83,11 @@
 		D2016BF02765259C00A07B75 /* SnapkitProject */ = {
 			isa = PBXGroup;
 			children = (
+				D2016C0527653AC100A07B75 /* Cell */,
 				D2016BF12765259C00A07B75 /* AppDelegate.swift */,
 				D2016BF32765259C00A07B75 /* SceneDelegate.swift */,
-				D2016C0527653AC100A07B75 /* Cell */,
 				D2016BF52765259C00A07B75 /* ViewController.swift */,
+				D2016C0E2765419600A07B75 /* Constants.swift */,
 				D2016BF72765259C00A07B75 /* Main.storyboard */,
 				D2016BFA2765259D00A07B75 /* Assets.xcassets */,
 				D2016BFC2765259D00A07B75 /* LaunchScreen.storyboard */,
@@ -93,10 +100,28 @@
 			isa = PBXGroup;
 			children = (
 				D2016C0627653AD400A07B75 /* CellWidthToLabels.xib */,
+				D2016C1227654BC300A07B75 /* OneMethod */,
+				D2016C1327654BD700A07B75 /* TwoMethod */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D2016C1227654BC300A07B75 /* OneMethod */ = {
+			isa = PBXGroup;
+			children = (
 				D2016C0A27653DE600A07B75 /* CellWithTwoLabelsViewModel.swift */,
 				D2016C0827653B0100A07B75 /* CellWidthToLabels.swift */,
 			);
-			path = Cell;
+			name = OneMethod;
+			sourceTree = "<group>";
+		};
+		D2016C1327654BD700A07B75 /* TwoMethod */ = {
+			isa = PBXGroup;
+			children = (
+				D2016C0C2765417100A07B75 /* CellWithTwoLabelsAndImage.swift */,
+				D2016C10276542E300A07B75 /* CellWithTwoLabelsAndImageViewModel.swift */,
+			);
+			name = TwoMethod;
 			sourceTree = "<group>";
 		};
 		FE70E6C5030907DD54DFDD71 /* Pods */ = {
@@ -225,9 +250,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2016C0927653B0100A07B75 /* CellWidthToLabels.swift in Sources */,
+				D2016C0D2765417100A07B75 /* CellWithTwoLabelsAndImage.swift in Sources */,
 				D2016BF62765259C00A07B75 /* ViewController.swift in Sources */,
 				D2016BF22765259C00A07B75 /* AppDelegate.swift in Sources */,
+				D2016C0F2765419600A07B75 /* Constants.swift in Sources */,
 				D2016C0B27653DE600A07B75 /* CellWithTwoLabelsViewModel.swift in Sources */,
+				D2016C11276542E300A07B75 /* CellWithTwoLabelsAndImageViewModel.swift in Sources */,
 				D2016BF42765259C00A07B75 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
