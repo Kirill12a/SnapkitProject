@@ -37,8 +37,8 @@ class CellWithTwoLabelsAndImage: UITableViewCell{
         stackView.alignment = .center
         stackView.spacing = 16
         stackView.addArrangedSubview(image)
-        stackView.addArrangedSubview(labelTitle)
         stackView.addArrangedSubview(labelText)
+        stackView.addArrangedSubview(labelTitle)
         return stackView
     }()
     

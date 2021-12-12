@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 struct CellWithTwoLabelsViewModel{
     let labelOneText:String 
     let labelTwoText:String

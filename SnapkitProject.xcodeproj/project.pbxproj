@@ -99,7 +99,6 @@
 		D2016C0527653AC100A07B75 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				D2016C0627653AD400A07B75 /* CellWidthToLabels.xib */,
 				D2016C1227654BC300A07B75 /* OneMethod */,
 				D2016C1327654BD700A07B75 /* TwoMethod */,
 			);
@@ -109,6 +108,7 @@
 		D2016C1227654BC300A07B75 /* OneMethod */ = {
 			isa = PBXGroup;
 			children = (
+				D2016C0627653AD400A07B75 /* CellWidthToLabels.xib */,
 				D2016C0A27653DE600A07B75 /* CellWithTwoLabelsViewModel.swift */,
 				D2016C0827653B0100A07B75 /* CellWidthToLabels.swift */,
 			);
